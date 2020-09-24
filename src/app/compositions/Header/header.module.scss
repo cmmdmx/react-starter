@@ -1,0 +1,35 @@
+@import "src/app/styling/index.scss";
+.header {
+    width: 100%;
+    background-color: $colorTheme;
+    box-sizing: border-box;
+    header {
+        max-width: 1280px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        color: $colorFontInvert;
+        font-weight: 500;
+    }
+}
+
+.mainLink {
+    all: unset;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    padding: 2rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover {
+        text-decoration: underline;
+    }
+    &:focus {
+        text-decoration: underline;
+    }
+    &.currentMainLink {
+        background-color: $colorHighlight;
+    }
+}

@@ -3,8 +3,6 @@ import React from "react";
 import { Page } from "../../lib";
 
 const StartPage = () => {
-	console.log("start");
-
 	return (
 		<Page>
 			<Page.Content>

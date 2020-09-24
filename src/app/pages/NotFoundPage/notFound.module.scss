@@ -1,15 +1,9 @@
-@import "src/app/styling/colors.scss";
-.notFound {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
+@import "src/app/styling/index.scss";
+div.notFound {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    left: 0;
-    top: 0;
-    background-color: $colorBg;
     h1 {
         color: $colorAccent;
     }
