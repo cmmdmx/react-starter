@@ -4,7 +4,7 @@ import { Router } from "./routing/Router";
 
 const App = () => {
 	return (
-		<div className={styles.app}>
+		<div className={styles.app} id="app">
 			<Router />
 		</div>
 	);

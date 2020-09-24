@@ -1,0 +1,29 @@
+@import "src/app/styling/colors.scss";
+.start {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    h1 {
+        color: $colorAccent;
+    }
+    span {
+        color: $colorRed;
+        font-weight: 500;
+        cursor: default;
+        &::before {
+            content: "";
+            width: 1em;
+            height: 1em;
+            border-radius: 1em;
+            background-color: $colorRed;
+            display: inline-block;
+            margin-right: 1em;
+            transform: translateY(0.2em);
+        }
+    }
+}
