@@ -1,70 +1,62 @@
-# React Starter Project
+# React Starter Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_the clean way to start a react based SPA based on CRA, ReactRouterDom & baobab state management_
 
-## Available Scripts
+## Contents
 
-In the project directory, you can run:
+1. [Intro](#Intro)
+1. [Preparations & Environment](#Preparations%20&%20Environment)
+1. [Development](#Development)
+1. [Concepts](#Concepts)
+   1. Basic Structure
+   1. Routing
+   1. State Management with Baobab.js
+   1. Api Integration
+   1. Testing
+1. [Future](#Future)
+1. [Contribution](#Contribution)
 
-### `npm start`
+## Intro
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**WHY** building a template project like this?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+React alone is a library; it does not include structures known from frameworks like Angular. Nevertheless, some structures establish themselves over time, structures that are more or less the same in most projects. This project represents one possible structure out of many, but one that has proven itself for me, [@cmmd_mx](https://github.com/cmmdmx).
 
-### `npm test`
+So this is _a template for everyone_, who wants to build a react-based site _simple, fast & efficient_.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is based on following tech stack:
 
-### `npm run build`
+- React + ReactDom
+- ReactRouterDom
+- State Management Baobab.js & Baobab-react by [@Yomguithereal](https://github.com/Yomguithereal/)
+- SCSS + CSS Modules Styling
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is based on some more and some less popular patterns - make sure you understand the concepts before start coding.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Full CRA Intro: [CRA-Readme](./CRA.md)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Preparations & Environment
 
-### `npm run eject`
+Your Dev Environment should meet following requirements:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- IDE (I use VSCode)
+  - Support ESLint, Prettier, Stylelint
+- NodeJS (Latest LTS)
+- Git(Hub)
+- Some (Coffee || Beer) & Pizza
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+todo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Concepts
 
-## Learn More
+todo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+todo
 
-### Code Splitting
+## Contribution
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+todo

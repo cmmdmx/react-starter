@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-expressions */
 import { filterProps } from "./filterProps"
-import { expect } from "chai"
 
 describe("filterProps() Test", () => {
     it("no params return empty object", () => {
-        expect(filterProps()).to.be.empty
+        expect(filterProps()).toEqual({})
     })
 
     it("no filter returns original object", () => {
@@ -12,7 +11,7 @@ describe("filterProps() Test", () => {
             testprop: 1
         }
 
-        expect(filterProps(props)).to.equal(props)
+        expect(filterProps(props)).toEqual(props)
     })
 
     it("with filter returns cropped object", () => {
@@ -24,10 +23,10 @@ describe("filterProps() Test", () => {
             toBeFiltered: "hi"
         }
 
-        const props = { ...origin, ...add }
+        const props = {...origin, ...add }
 
         const filter = ["toBeFiltered"]
 
-        expect(filterProps(props, filter)).to.deep.include(origin)
+        expect(filterProps(props, filter)).toEqual(origin)
     })
 })
